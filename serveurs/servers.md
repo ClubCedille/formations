@@ -9,9 +9,9 @@ output: formations_serveur_cedille
 
 ## Outils
 
-- LXC : Conteneurs mutable
-- [Duply](http://duplicity.nongnu.org/) : Système de Backup
-- Docker : Conteneurs imutable
+- LXC : Conteneurs muables
+- [Duply](http://duplicity.nongnu.org/) : Système de Backup (duplicity)
+- Docker : Conteneurs immuables (Surtout pour monitorage)
 
 # Conteneurs LXC dans Monalisa
 
@@ -22,9 +22,9 @@ output: formations_serveur_cedille
 
 ## mirroir.cedille.club
 
-- Contient les Paquets pour debian, ubuntu, manjaro, arch & mx-linux
+- Contient les paquets pour Debian, Ubuntu, Manjaro, Arch & Mx-Linux
 
-# Monitorage
+# Surveillance
 
 - Prometheus
 - Grafana
@@ -38,13 +38,13 @@ output: formations_serveur_cedille
 
 # Problèmes actuels
 
-#### Reproduction de Monalisa par Ansible est effectué, mais pas mis en place ni maintenu
+#### Reproduction de Monalisa par Ansible est effectuée, mais pas mis en place ni maintenu
 
 #### Problèmes de certificats HTTPS récurrents
 
 #### Maintenance des conteneurs Docker manuelle (MAJ des sites web)
 
-#### Manque de mémoires disque
+#### Manque de espace disque
 
 #### Monalisa est un point unique d'échec
 
